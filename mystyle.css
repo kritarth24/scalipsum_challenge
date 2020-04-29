@@ -1,0 +1,172 @@
+*
+{
+  box-sizing: border-box;
+}
+body
+{
+  background-color: #20222f;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.top-heading
+{
+  color: #fffffd;
+}
+div.header
+{
+  padding:5vh 0;
+}
+.size
+{
+  font-size: 12px;
+}
+.light
+{
+  color:#8a91bd;
+}
+h4.light
+{
+  padding-top: 1vh;
+}
+p.spacing
+{
+  letter-spacing: 0.5vw;
+  font-size: 10px;
+}
+h1,h3,h4
+{
+  padding: 0;
+  margin: 0;
+}
+h1.top-heading
+{
+  padding-top: 2vh;
+}
+div.grid
+{
+  display: grid;
+  grid-template-columns: 26.5% 26.5% 26.5% 26.5%;
+  grid-row-gap: 3vh;
+}
+div.grid-container
+{
+  border-radius:5px;
+  background-color:#252b43;
+  max-width: 15vw;
+  height: 25vh;
+  text-align: center;
+  padding: 13px;
+}
+.head
+{
+  position: relative;
+}
+div.grade
+{
+  border-top-left-radius:5px;
+  border-top-right-radius: 5px;
+  position: absolute;
+  top:0;
+  left:0;
+  padding: 0;
+  margin: 0;
+  height:4px;
+  width: 15vw;
+  background: linear-gradient(to right, #fac06c ,#db4e93);
+}
+div.fb
+{
+background:#1ba2f4
+}
+div.utube
+{
+  background:#c2042a;
+}
+div.grid-border2
+{
+  border-top: 3px solid #c2042a;
+}
+div.grid-container h1
+{
+  font-size: 40px;
+  font-weight: 600;
+}
+.green
+{
+  color:#079076;
+  font-size: 10px;
+  font-weight: 800;
+}
+div.grid-container2
+{
+  border-radius: 5px;
+  background-color:#252b43;
+  max-width: 15vw;
+  height: 15vh;
+  padding: 10px;
+}
+.span
+{
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+}
+div.set
+{
+  position: relative;
+}
+div.it
+{
+  position: absolute;
+  bottom:0;
+  right: 0;
+}
+.red
+{
+  color:#da4e5b;
+  font-size: 10px;
+  font-weight: 800;
+}
+@media only screen and (max-width: 768px){
+  div.grid
+  {
+    grid-template-columns: 50% 50%;
+      grid-column-gap:3vw;
+  }
+  div.grid-container
+  {
+    height: 30vh;
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+  div.grade
+  {
+    width: 100%;
+  }
+  div.grid-container2
+  {
+    max-width: 100vw;
+    max-height: 100vh;
+    grid-column-gap: 3vw;
+  }
+}
+@media only screen and (max-width: 450px) {
+div.grid
+{
+  display: grid;
+  grid-template-columns: 100%;
+}
+div.grid-container
+{
+  height: 30vh;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+div.grid-container2
+{
+  max-width: 100vw;
+  max-height: 100vh;
+}
+}
